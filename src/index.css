@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #b1b1b1; 
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.block {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+img {
+  width: 500px;
+}
+
+.cartIcon {
+  width: 60px;
+}
+
+.categoryButtonSelected {
+  background-color: green;
+}
+
+.categoryButton:hover {
+  background-color: #fdeb6b;;
+}
+
+.categoryButtonSelected:hover {
+  background-color: green;
+}
+
+.categoryButton {
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.icon {
+  width: 25px;
+}
+
+p, h1, h3, h2, button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color: #fdeb6b;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 35px;
+}
