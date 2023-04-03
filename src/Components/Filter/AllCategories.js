@@ -4,7 +4,7 @@ const AllCategories = () => {
     return(
         <div>
             <h1>Какую еду вы предпочитаете?</h1>
-            {['ПИЦЦА', 'ПАСТА', 'МОРЕ ПРОДУКТЫ', 'ВСЕ'].map(category => <Filter key={Filter} category={category} />)
+            {['ПИЦЦА', 'ПАСТА', 'МОРЕ ПРОДУКТЫ', 'ВСЕ'].map((category, index) => <Filter key={index} category={category} />)
             }
             
         </div>
